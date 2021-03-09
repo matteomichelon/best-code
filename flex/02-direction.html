@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+
+      * {
+        padding:0px;
+        margin:0px;
+        box-sizing: border-box;
+      }
+
+      .container {
+        display: flex;
+        width:500px;
+        height:500px;
+        background: #ddd;
+
+        flex-direction: row;
+        /*flex-direction: column;*/
+
+        /*flex-direction: row-reverse;*/
+        /*flex-direction: column-reverse;*/
+      }
+
+      .box {
+        flex-basis: 100px;
+      }
+
+      .box1 {
+        background: red;
+      }
+
+      .box2 {
+        background: green;
+      }
+
+      .box3 {
+        background: blue;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <h2>Flex - direction, notiamo l'uso di basis che cambia di significato cambiando la direction</h2>
+
+    <div class="container">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+    </div>
+
+  </body>
+</html>

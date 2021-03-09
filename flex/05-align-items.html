@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+
+      * {
+        padding:0px;
+        margin:0px;
+        box-sizing: border-box;
+      }
+
+      .container {
+        display: flex;
+        width:500px;
+        height:500px;
+        background: #ddd;
+        flex-direction: row;
+
+        align-items: stretch;
+        /*align-items: center;*/
+        /*align-items: flex-start;*/
+        /*align-items: flex-end;*/
+        /*align-items: baseline;*/
+      }
+
+      .box {
+        flex-basis: 100px;
+      }
+
+      .box1 {
+        background: red;
+      }
+
+      .box2 {
+        background: green;
+      }
+
+      .box2 span {
+        font-size: 50px;
+      }
+
+      .box3 {
+        background: blue;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <h2>Flex - align items</h2>
+
+    <div class="container">
+      <div class="box box1">box1</div>
+      <div class="box box2">
+        <span>box2</span>
+        <br/>
+        altro contenuto linea
+        <br/>
+        altro contenuto linea
+        <br/>
+        altro contenuto linea
+        </br/>
+      </div>
+      <div class="box box3">
+        box3
+        <br/>
+        altro contenuto linea
+        <br/>
+        altro contenuto linea
+        <br/>
+        altro contenuto linea
+        </br/>
+        altro contenuto linea
+        <br/>
+        altro contenuto linea
+        </br/>
+      </div>
+    </div>
+
+  </body>
+</html>
