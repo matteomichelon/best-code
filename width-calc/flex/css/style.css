@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.sponsors {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors li{
+    padding: 0 20px;
+    width: calc( 100% / 6 );
+}
+
+.bg-grey {
+    background-color: #f3f5fa;
+}
+
+@media screen and (max-width: 767px) {
+    .sponsors {
+        flex-wrap: wrap;
+    }
+    .sponsors li{
+       
+        width: calc( 100% / 2 );
+    }
+}
