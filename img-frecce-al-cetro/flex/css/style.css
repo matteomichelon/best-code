@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 40px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.slider-container {
+    display: flex;
+}
+
+.slider-content {
+    padding: 0 20px;
+}
+
+.arrow {
+    font-size: 40px;
+    align-self: center;
+}
