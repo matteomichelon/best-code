@@ -1,0 +1,24 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    border-radius: 2px;
+    width: 60%;
+    background-color: #5a5a5a;
+    /* test */
+    margin: 50px auto;
+}
+
+.bar-top {
+    height: 4px;
+    border-radius: 2px;
+    width: 30%;
+    background-color: #c1c1c1ed;
+}
+
+.bar-top2 {
+    position: absolute;
+    left: 2px;
+    top: 0;
+}
