@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    /*  background-color: aquamarine; */
+    text-align: center;
+}
+
+.star {
+    font-size: 22px;
+    padding: 20px 0;
+    /* Test */
+    border: 1px solid black;
+}
+
+.star::before, .star::after {
+    content: "";
+    width: 120px;
+    display: inline-block;
+    border-bottom: 4px solid black;
+    vertical-align: super;
+}
+
+.star i{
+    margin: 0 12px;
+}
