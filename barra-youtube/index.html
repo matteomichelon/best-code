@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+</head>
+
+<!-- Esercizio visto con Alessandro che trovi 
+    nella cartella: Boolean\_Lezioni\1- Html-Css\23-css-effects 
+    al minuto 35:00 -->
+
+<body>
+    <section>
+
+        <div class="display-flex wrapper">
+
+            <div class="song-container">song-container</div>
+
+            <div class="player-container">
+
+                <!-- Top -->
+                <div class="player-top display-flex">
+                    <a href="#">
+                        <i class="fas fa-random"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-step-backward"></i>
+                    </a>
+                    <a href="#">
+                        <i id="play-hover" class="far fa-play-circle"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-step-forward"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-redo-alt"></i>
+                    </a>
+                </div>
+                <!-- end Top -->
+
+                <!-- Bottom -->
+                <div class="player-controllers display-flex">
+                    <span>0:00</span>
+
+                    <div class="player-bar">
+                        <div class="total-bar">
+                            <div class="current-progress">
+                                <span class="pallino"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span>0:45</span>
+                </div>
+                <!-- end Bottom -->
+
+            </div>
+
+            <div class="volumn-container">volumn-container</div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>

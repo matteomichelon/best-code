@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    /* test */
+    border: 1px solid black;
+}
+
+.wrapper {
+    /* test */
+    border: 1px solid red;
+}
+
+a {
+    color: black;
+}
+
+.display-flex {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-container {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-size: 12px;
+    /* test */
+    border: 1px solid green;
+}
+
+.player-top {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+#play-hover {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#play-hover:hover {
+    transform: scale(1.2, 1.2)
+}
+
+.player-bar {
+    flex-grow: 1;
+    /* flex-grow: 1; prenditi tutto lo spazio disponibile apparte dei contenuti */
+    padding: 0 10px;
+}
+
+.player-bar .total-bar {
+    height: 5px;
+    background-color: lightgrey;
+}
+
+.player-bar .current-progress {
+    background-color: grey;
+    height: 100%;
+    width: 40%;
+}
+
+.pallino {
+    position: relative;
+    top: -3px;
+    left: 95%;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: none;
+}
+
+.total-bar:hover .current-progress {
+    background-color: greenyellow;
+}
+
+.total-bar:hover {
+    cursor: pointer;
+}
+
+.total-bar:hover .pallino {
+    display: block;
+}
